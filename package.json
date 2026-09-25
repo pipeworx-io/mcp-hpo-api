@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-hpo-api",
-  "version": "0.1.0",
-  "description": "Human Phenotype Ontology — clinical phenotype terms + gene/disease annotations",
+  "version": "0.1.1",
+  "description": "HPO API MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-hpo-api": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "hpo-api"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-hpo-api"
+    "url": "git+https://github.com/pipeworx-io/mcp-hpo-api.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-bf8f6b52d36d8df0c7d1197d178a8418fb0d94f6d05449525f4b50684910eafd",
+    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
   }
 }
