@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-hpo-api",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "HPO API MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-bf8f6b52d36d8df0c7d1197d178a8418fb0d94f6d05449525f4b50684910eafd",
-    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
+    "sourceHash": "v1-824125f27763ccd387aab835c9869da8338bbe72e4a7715e85e8748ede9e4793",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }

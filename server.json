@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/hpo-api",
   "title": "Hpo Api",
   "description": "HPO API MCP.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/hpo-api",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-hpo-api",
